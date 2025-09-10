@@ -1,7 +1,7 @@
 // See https://observablehq.com/framework/config for documentation.
 export default {
   // The app’s title; used in the sidebar and webpage titles.
-  title: "PortalJS Observable Framework Starter",
+  title: "PortalJS Data App",
 
   // The pages and sections in the sidebar. If you don’t specify this option,
   // all pages will be listed in alphabetical order. Listing pages explicitly
@@ -25,7 +25,6 @@ export default {
   // Some additional configuration options and their defaults:
   // theme: "default", // try "light", "dark", "slate", etc.
   // header: "", // what to show in the header (HTML)
-  // footer: "Built with Observable.", // what to show in the footer (HTML)
   // sidebar: true, // whether to show the sidebar
   // toc: true, // whether to show the table of contents
   // pager: true, // whether to show previous & next links in the footer
@@ -35,4 +34,6 @@ export default {
   // typographer: false, // smart quotes and other typographic improvements
   // preserveExtension: false, // drop .html from URLs
   // preserveIndex: false, // drop /index from URLs
+  style: "style.css",
+  footer: "Built with PortalJS and Observable Framework.",
 };

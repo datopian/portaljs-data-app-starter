@@ -3,8 +3,8 @@ toc: false
 ---
 
 <div class="hero">
-  <h1>PortalJS Observable Framework Starter</h1>
-  <h2>Welcome to your new app! Edit&nbsp;<code style="font-size: 90%;">src/index.md</code> to change this page.</h2>
+  <h1>🌀 PortalJS <span style="color: var(--theme-foreground)">Data App</span></h1>
+  <h2>Welcome to your new data app! Edit&nbsp;<code style="font-size: 90%;">src/index.md</code> to change this page.</h2>
   <a href="https://observablehq.com/framework/getting-started">Get started<span style="display: inline-block; margin-left: 0.25rem;">↗︎</span></a>
 </div>
 
@@ -86,10 +86,7 @@ Here are some ideas of things you could try…
   font-size: 14vw;
   font-weight: 900;
   line-height: 1;
-  background: linear-gradient(30deg, var(--theme-foreground-focus), currentColor);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--theme-foreground-focus);
 }
 
 .hero h2 {
@@ -104,7 +101,7 @@ Here are some ideas of things you could try…
 
 @media (min-width: 640px) {
   .hero h1 {
-    font-size: 90px;
+    font-size: 56px;
   }
 }
 
