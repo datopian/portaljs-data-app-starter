@@ -1,6 +1,12 @@
-# PortalJS Observable Framework Starter
+# PortalJS Data App Starter
 
-This is an [Observable Framework](https://observablehq.com/framework/) app. To install the required dependencies, run:
+Data app template for publishing dashboards and visualizations, powered by [ObservableHQ Framework](https://observablehq.com/framework/).
+
+## Creating dashboards and reports
+
+To create dashboards and reports, you have to run your data app locally. Note that this is this is an [Observable Framework](https://observablehq.com/framework/) app.
+
+To install the required dependencies, run:
 
 ```
 npm install
@@ -15,6 +21,18 @@ npm run dev
 Then visit <http://localhost:3000> to preview your app.
 
 For more, see <https://observablehq.com/framework/getting-started>.
+
+## Publishing in PortalJS Cloud
+
+Note that your PortalJS Cloud data portal and your data app are different applications.
+
+In order to publish your data app's content to your PortalJS Cloud data portal:
+
+1. Push the content you developed locally to this repo
+2. Navigate to your data app deployment, find the content you want to publish and copy the URL
+3. In the PortalJS Cloud dashboard, head to the visualizations page and publish a new visualization using the previously copied URL as the external URL
+
+Users will then be able to find the visualization in your data portal and navigate to the visualization in your data app.
 
 ## Project structure
 
@@ -49,11 +67,9 @@ A typical Framework project looks like this:
 
 ## Command reference
 
-| Command           | Description                                              |
-| ----------------- | -------------------------------------------------------- |
-| `npm install`            | Install or reinstall dependencies                        |
-| `npm run dev`        | Start local preview server                               |
-| `npm run build`      | Build your static site, generating `./dist`              |
-| `npm run deploy`     | Deploy your app to Observable                            |
-| `npm run clean`      | Clear the local data loader cache                        |
-| `npm run observable` | Run commands like `observable help`                      |
+| Command         | Description                                 |
+| --------------- | ------------------------------------------- |
+| `npm install`   | Install or reinstall dependencies           |
+| `npm run dev`   | Start local preview server                  |
+| `npm run build` | Build your static site, generating `./dist` |
+| `npm run clean` | Clear the local data loader cache           |
