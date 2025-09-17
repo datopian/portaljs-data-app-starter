@@ -4,7 +4,7 @@ Data app template for publishing dashboards and visualizations, powered by [Obse
 
 ## Creating dashboards and reports
 
-To create dashboards and reports, you have to run your data app locally. Note that this is this is an [Observable Framework](https://observablehq.com/framework/) app.
+To create dashboards and reports, you have to run your data app locally. Note that your data app is an [Observable Framework](https://observablehq.com/framework/) app.
 
 To install the required dependencies, run:
 
